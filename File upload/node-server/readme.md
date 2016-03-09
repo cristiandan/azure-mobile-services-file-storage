@@ -9,7 +9,7 @@ $ npm i azure-cli -g
 Then execute the following (customize allowedOrigins if you need a specific domain)
 
 ```sh
-azure storage cors set
+$ azure storage cors set
   -a "storage-account"
   -k "storage-account-key"
   --blob/table/queue/file
@@ -20,8 +20,8 @@ azure storage cors set
   
 You also need the following setted in your azure mobile service's **application settings**
   
-    - STORAGE_ACCOUNT_NAME and AZURE_STORAGE_ACCOUNT with the name of you azure blob storage account name
-    - STORAGE_ACCOUNT_ACCESS_KEY and AZURE_STORAGE_ACCESS_KEY with the access key of your azure blob storage account
+* STORAGE_ACCOUNT_NAME and AZURE_STORAGE_ACCOUNT with the name of you azure blob storage account name
+* STORAGE_ACCOUNT_ACCESS_KEY and AZURE_STORAGE_ACCESS_KEY with the access key of your azure blob storage account
   
   
   
